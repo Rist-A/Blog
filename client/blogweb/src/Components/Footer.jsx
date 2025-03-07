@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
+import Logo from "../assets/B.png";
 
 const Footer = () => {
   return (
-    <div>
-      Footer
-    </div>
-  )
-}
+    <footer>
+      <img src={Logo} alt="" />
+      <span>
+        Made by  <b>Rist</b>.
+      </span>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;
